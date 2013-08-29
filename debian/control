@@ -1,0 +1,12 @@
+Source: ros-groovy-openni2-camera
+Section: misc
+Priority: extra
+Maintainer: Michael Ferguson <developers@unboundedrobotics.com>
+Build-Depends: debhelper (>= 7.0.50~), libopenni2-dev, ros-groovy-camera-info-manager, ros-groovy-catkin, ros-groovy-dynamic-reconfigure, ros-groovy-image-transport, ros-groovy-nodelet, ros-groovy-roscpp, ros-groovy-sensor-msgs
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-groovy-openni2-camera
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libopenni2-dev, ros-groovy-camera-info-manager, ros-groovy-dynamic-reconfigure, ros-groovy-image-transport, ros-groovy-nodelet, ros-groovy-roscpp, ros-groovy-sensor-msgs
+Description: Drivers for the Asus Xtion and Primesense Devices. For using a kinect with ROS, try the freenect stack: http://www.ros.org/wiki/freenect_stack
