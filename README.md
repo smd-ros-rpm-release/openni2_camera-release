@@ -1,5 +1,24 @@
 ## openni2_camera - 0.1.2-0
 
+User `mikef@ee2` released the packages in the `openni2_camera` repository by running `/usr/bin/bloom-release openni2_camera --track indigo --rosdistro indigo --new-track` on `Sun, 20 Apr 2014 02:57:53 -0000`
+
+The `openni2_camera` package was released.
+
+Version of package(s) in repository `openni2_camera`:
+- rosdistro version: `null`
+- old version: `null`
+- new version: `0.1.2-0`
+
+Versions of tools used:
+- bloom version: `0.4.7`
+- catkin_pkg version: `0.1.25`
+- rosdep version: `0.10.25`
+- rosdistro version: `0.3.4`
+- vcstools version: `0.1.30`
+
+
+## openni2_camera - 0.1.2-0
+
 User `mikef@coruscant` released the packages in the `openni2_camera` repository by running `/usr/bin/bloom-release openni2_camera --track hydro --rosdistro hydro` on `Mon, 03 Feb 2014 20:37:56 -0000`
 
 The `openni2_camera` package was released.
