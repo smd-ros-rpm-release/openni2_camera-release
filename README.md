@@ -1,3 +1,22 @@
+## openni2_camera (indigo) - 0.1.2-1
+
+The packages in the `openni2_camera` repository were released into the `indigo` distro by running `/usr/bin/bloom-release openni2_camera -t indigo -r indigo` on `Wed, 21 May 2014 03:04:38 -0000`
+
+The `openni2_camera` package was released.
+
+Version of package(s) in repository `openni2_camera`:
+- rosdistro version: `0.1.2-0`
+- old version: `0.1.2-0`
+- new version: `0.1.2-1`
+
+Versions of tools used:
+- bloom version: `0.5.8`
+- catkin_pkg version: `0.2.2`
+- rosdep version: `0.10.25`
+- rosdistro version: `0.3.4`
+- vcstools version: `0.1.30`
+
+
 ## openni2_camera (hydro) - 0.1.2-1
 
 The packages in the `openni2_camera` repository were released into the `hydro` distro by running `/usr/bin/bloom-release openni2_camera -t hydro -r hydro` on `Wed, 21 May 2014 03:01:50 -0000`
