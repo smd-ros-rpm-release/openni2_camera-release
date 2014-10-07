@@ -6,11 +6,7 @@ find_package(catkin REQUIRED camera_info_manager dynamic_reconfigure image_trans
 find_package(Boost REQUIRED COMPONENTS system thread)
 
 find_package(PkgConfig)
-
-pkg_check_modules(PC_OPENNI2 libopenni2)
-if (NOT PC_OPENNI2_FOUND)
-  pkg_check_modules(PC_OPENNI2 REQUIRED openni2)
-endif()
+pkg_check_modules(PC_OPENNI2 REQUIRED libopenni2)
 
 generate_dynamic_reconfigure_options(cfg/OpenNI2.cfg)
 
@@ -61,7 +57,9 @@ add_executable(openni2_camera_node
 target_link_libraries(openni2_camera_node openni2_driver_lib ${catkin_LIBRARIES} ${Boost_LIBRARIES} )
 add_dependencies(openni2_camera_node ${PROJECT_NAME}_gencfg)
 
-install(TARGETS openni2_wrapper openni2_camera_nodelet openni2_camera_node openni2_driver_lib
+add_executable(usb_reset src/usb_reset.c)
+
+install(TARGETS openni2_wrapper openni2_camera_nodelet openni2_camera_node openni2_driver_lib usb_reset
   ARCHIVE DESTINATION ${CATKIN_PACKAGE_LIB_DESTINATION}
   LIBRARY DESTINATION ${CATKIN_PACKAGE_LIB_DESTINATION}
   RUNTIME DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION}
