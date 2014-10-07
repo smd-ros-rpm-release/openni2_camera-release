@@ -1,0 +1,36 @@
+ros-hydro-openni2-camera (0.1.4-0raring) raring; urgency=high
+
+  * Add usb_reset
+  * Contributors: Kei Okada, Michael Ferguson
+
+ -- Michael Ferguson <developers@unboundedrobotics.com>  Mon, 06 Oct 2014 07:00:00 -0000
+
+ros-hydro-openni2-camera (0.1.3-0raring) raring; urgency=high
+
+  * device_id: find camera by serial number
+  * Make freenect_stack link a real link for wiki.
+  * Contributors: Dariush Forouher, Michael Ferguson
+
+ -- Michael Ferguson <developers@unboundedrobotics.com>  Thu, 22 May 2014 07:00:00 -0000
+
+ros-hydro-openni2-camera (0.1.2-0raring) raring; urgency=high
+
+  * Fix CMake error.
+  * Contributors: Benjamin Chretien, Michael Ferguson
+
+ -- Michael Ferguson <developers@unboundedrobotics.com>  Mon, 03 Feb 2014 08:00:00 -0000
+
+ros-hydro-openni2-camera (0.1.1-0raring) raring; urgency=high
+
+  * Fixed default value of ir_mode. Thanks @nxdefiant
+    https://github.com/ros-drivers/openni2_camera/issues/16
+
+ -- Michael Ferguson <developers@unboundedrobotics.com>  Wed, 13 Nov 2013 08:00:00 -0000
+
+ros-hydro-openni2-camera (0.1.0-0raring) raring; urgency=high
+
+  * initial release
+
+ -- Michael Ferguson <developers@unboundedrobotics.com>  Wed, 28 Aug 2013 07:00:00 -0000
+
+
