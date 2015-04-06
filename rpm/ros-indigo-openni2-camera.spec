@@ -7,14 +7,14 @@ Group:          Development/Libraries
 License:        BSD
 Source0:        %{name}-%{version}.tar.gz
 
-Requires:       openni-devel
+Requires:       openni2-devel
 Requires:       ros-indigo-camera-info-manager
 Requires:       ros-indigo-dynamic-reconfigure
 Requires:       ros-indigo-image-transport
 Requires:       ros-indigo-nodelet
 Requires:       ros-indigo-roscpp
 Requires:       ros-indigo-sensor-msgs
-BuildRequires:  openni-devel
+BuildRequires:  openni2-devel
 BuildRequires:  ros-indigo-camera-info-manager
 BuildRequires:  ros-indigo-catkin
 BuildRequires:  ros-indigo-dynamic-reconfigure
